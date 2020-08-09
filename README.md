@@ -10,4 +10,4 @@ Para ejecutar el programa debe seguir los siguientes pasos:
 
 Para ejecutar el programa debe seguir los siguientes pasos:
 
-- Ejecutar el archivo ['a.exe'](./Warshall/a.exe)
+- Ejecutar el archivo [a.exe](./Warshall/a.exe)
