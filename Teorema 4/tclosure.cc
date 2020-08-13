@@ -42,9 +42,9 @@ void transitiveClosure(int graph[][V])
 
 void printSolution(int reach[][V]) { 
     
-    printf ("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"); 
-    printf ("|||La siguiente matriz es el cierre transitivo del gráfico dado|||"); 
-    printf ("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"); 
+    printf ("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"); 
+    printf ("|||La siguiente matriz es el cierre transitivo del gráfico dado|||\n"); 
+    printf ("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"); 
     
     for (int i = 0; i < V; i++) { 
         
@@ -58,7 +58,7 @@ void printSolution(int reach[][V]) {
 int main() {   
     
     //Vertices indicados en la matriz ingresada.
-    
+    ///R = (1,3), (1,4), (2,1), (3,2)
     int graph[V][V] = { {0, 0, 1, 1}, 
                         {1, 0, 0, 0}, 
                         {0, 1, 0, 0}, 
